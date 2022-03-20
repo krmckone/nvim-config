@@ -6,7 +6,7 @@ return require('packer').startup(function()
   use { 'wbthomason/packer.nvim', opt = true }
 
   -- Color scheme
-  use 'EdenEast/nightfox.nvim'
+  use { "EdenEast/nightfox.nvim" }
 
   -- Fuzzy finder
   use {
@@ -14,13 +14,19 @@ return require('packer').startup(function()
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
 
-  -- LSP and completion plugins
-  use { 'neovim/nvim-lspconfig',
-        'williamboman/nvim-lsp-installer',
-  }
+  -- LSP config
+  use { 'neovim/nvim-lspconfig' }
 
-  -- Lua dev
-  use { 'tjdevries/nlua.nvim' }
+  -- Completion framework
+  use { 'hrsh7th/nvim-cmp' }
+  use { 'hrsh7th/cmp-nvim-lsp' }
+  use { 'hrsh7th/cmp-vsnip' }
+  use { 'hrsh7th/cmp-path'}
+  use { 'hrsh7th/cmp-buffer' }
+  use { 'hrsh7th/vim-vsnip' }
+
+  -- Rust dev
+  use { 'simrat39/rust-tools.nvim' }
 
   -- Vim dispatch
   use { 'tpope/vim-dispatch' }
@@ -39,11 +45,6 @@ return require('packer').startup(function()
   use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
-  }
-
-  -- coc for autocomplete
-  use {
-    'neoclide/coc.nvim', branch = 'release'
   }
 
   -- github autopilot
