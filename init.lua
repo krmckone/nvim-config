@@ -38,6 +38,9 @@ require('lsp_ruby')
 -- Invoke lua server config
 require('lsp_lua')
 
+-- Invoke rust server config
+require('lsp_rust')
+
 local cmp = require'cmp'
 cmp.setup({
   -- Enable LSP snippets
