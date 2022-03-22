@@ -47,11 +47,6 @@ return require('packer').startup(function()
         run = ':TSUpdate'
   }
 
-  -- github autopilot
-  use {
-    "github/copilot.vim"
-  }
-
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
