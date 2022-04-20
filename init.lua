@@ -19,7 +19,7 @@ execute('source ~/.vimrc')
 
 -- Set my theme using vimscript
 vim.o.termguicolors = true
-execute('colorscheme nordfox')
+execute('colorscheme dawnfox')
 
 execute('set completeopt=menuone,noinsert,noselect')
 execute('set shortmess+=c')
