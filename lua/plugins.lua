@@ -6,7 +6,9 @@ return require('packer').startup(function()
   use { 'wbthomason/packer.nvim', opt = true }
 
   -- Color scheme
-  use { "EdenEast/nightfox.nvim" }
+  -- Taking a break from nightfox for a bi
+  -- use { "EdenEast/nightfox.nvim" }
+  use { 'folke/tokyonight.nvim' }
 
   -- Fuzzy finder
   use {
