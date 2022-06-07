@@ -17,24 +17,24 @@ return require('packer').startup(function()
   }
 
   -- LSP config
-  use { 'neovim/nvim-lspconfig' }
+--  use { 'neovim/nvim-lspconfig' }
 
   -- Completion framework
-  use { 'hrsh7th/nvim-cmp' }
-  use { 'hrsh7th/cmp-nvim-lsp' }
-  use { 'hrsh7th/cmp-vsnip' }
-  use { 'hrsh7th/cmp-path'}
-  use { 'hrsh7th/cmp-buffer' }
-  use { 'hrsh7th/vim-vsnip' }
+  -- use { 'hrsh7th/nvim-cmp' }
+  -- use { 'hrsh7th/cmp-nvim-lsp' }
+  -- use { 'hrsh7th/cmp-vsnip' }
+  -- use { 'hrsh7th/cmp-path'}
+  -- use { 'hrsh7th/cmp-buffer' }
+  -- use { 'hrsh7th/vim-vsnip' }
 
   -- Rust dev
   use { 'simrat39/rust-tools.nvim' }
 
   -- Vim dispatch
-  use { 'tpope/vim-dispatch' }
+  -- use { 'tpope/vim-dispatch' }
 
   -- Fugitive Git
-  use { 'tpope/vim-fugitive' }
+  -- use { 'tpope/vim-fugitive' }
 
   -- Lualine status bar
   use {
