@@ -34,7 +34,7 @@ return require('packer').startup(function()
   -- use { 'tpope/vim-dispatch' }
 
   -- Fugitive Git
-  use { 'tpope/vim-fugitive' }
+  -- use { 'tpope/vim-fugitive' }
 
   -- Lualine status bar
   use {
