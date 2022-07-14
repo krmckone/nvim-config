@@ -16,9 +16,6 @@ return require('packer').startup(function()
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
 
-  -- Fugitive Git
-  use { 'tpope/vim-fugitive' }
-
   -- Treesitter
   use {
         'nvim-treesitter/nvim-treesitter',
