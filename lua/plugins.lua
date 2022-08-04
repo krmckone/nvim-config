@@ -5,9 +5,7 @@ return require('packer').startup(function()
   -- Optional Packer management plugin
   use { 'wbthomason/packer.nvim', opt = true }
 
-  -- Color scheme
-  use { "EdenEast/nightfox.nvim" }
-  -- use { 'folke/tokyonight.nvim' }
+  use 'shaunsingh/solarized.nvim'
 
   -- Fuzzy finder
   use {
