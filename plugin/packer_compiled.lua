@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -95,15 +100,15 @@ _G.packer_plugins = {
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tokyonight.nvim"] = {
+  ["vim-airline"] = {
     loaded = true,
-    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
+    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
   },
-  ["vim-fugitive"] = {
+  ["vim-airline-themes"] = {
     loaded = true,
-    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
+    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
   }
 }
 

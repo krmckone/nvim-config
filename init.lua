@@ -19,8 +19,9 @@ execute('source ~/.vimrc')
 
 -- Set my theme using vimscript
 vim.o.termguicolors = true
--- execute('colorscheme dawnfox')
-execute('colorscheme tokyonight')
+execute('colorscheme dayfox')
+execute("let g:airline_theme='papercolor'")
+-- execute('colorscheme tokyonight')
 
 execute('set completeopt=menuone,noinsert,noselect')
 execute('set shortmess+=c')
