@@ -6,9 +6,8 @@ return require('packer').startup(function()
   use { 'wbthomason/packer.nvim', opt = true }
 
   -- Color scheme
-  -- Taking a break from nightfox for a bi
-  -- use { "EdenEast/nightfox.nvim" }
-  use { 'folke/tokyonight.nvim' }
+  use { "EdenEast/nightfox.nvim" }
+  -- use { 'folke/tokyonight.nvim' }
 
   -- Fuzzy finder
   use {
@@ -18,7 +17,11 @@ return require('packer').startup(function()
 
   -- Treesitter
   use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
+      'nvim-treesitter/nvim-treesitter',
+      run = ':TSUpdate'
   }
+
+  -- Airline
+  use { 'vim-airline/vim-airline' }
+  use { 'vim-airline/vim-airline-themes' }
 end)
