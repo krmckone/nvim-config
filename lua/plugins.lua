@@ -5,7 +5,7 @@ return require('packer').startup(function()
   -- Optional Packer management plugin
   use { 'wbthomason/packer.nvim', opt = true }
 
-  use 'shaunsingh/solarized.nvim'
+  use 'overcache/NeoSolarized'
 
   -- Fuzzy finder
   use {
