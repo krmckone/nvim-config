@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["NeoSolarized.nvim"] = {
+    loaded = true,
+    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/NeoSolarized.nvim",
+    url = "https://github.com/overcache/NeoSolarized.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -114,11 +119,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
-  },
-  ["solarized.nvim"] = {
-    loaded = true,
-    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/solarized.nvim",
-    url = "https://github.com/shaunsingh/solarized.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
