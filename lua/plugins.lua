@@ -22,4 +22,10 @@ return require('packer').startup(function()
   -- Airline
   use { 'vim-airline/vim-airline' }
   use { 'vim-airline/vim-airline-themes' }
+
+  -- Fugitive
+  use { 'tpope/vim-fugitive' }
+
+  -- vim-go
+  use { 'fatih/vim-go' }
 end)
