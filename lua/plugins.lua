@@ -19,10 +19,6 @@ return require('packer').startup(function()
       run = ':TSUpdate'
   }
 
-  -- Airline
-  use { 'vim-airline/vim-airline' }
-  use { 'vim-airline/vim-airline-themes' }
-
   -- Fugitive
   use { 'tpope/vim-fugitive' }
 
