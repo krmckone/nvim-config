@@ -15,8 +15,8 @@ return require('packer').startup(function()
 
   -- Treesitter
   use {
-      'nvim-treesitter/nvim-treesitter',
-      run = ':TSUpdate'
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
   }
 
   -- Fugitive
@@ -24,4 +24,14 @@ return require('packer').startup(function()
 
   -- vim-go
   use { 'fatih/vim-go' }
+
+  -- Icons
+  use 'nvim-tree/nvim-web-devicons'
+
+
+  -- Status bar
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 end)
