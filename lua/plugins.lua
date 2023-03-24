@@ -18,6 +18,9 @@ return require('packer').startup(function()
 
   -- Packer can manage itself
   use("wbthomason/packer.nvim")
+
+  -- Lots of LSP related things
+
   -- Collection of common configurations for the Nvim LSP client
   use("neovim/nvim-lspconfig")
 
@@ -38,7 +41,7 @@ return require('packer').startup(function()
 
   use 'overcache/NeoSolarized'
 
-  -- Fuzzy finder
+  -- Fuzzy finder very useful
   use {
     'nvim-telescope/telescope.nvim',
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
@@ -56,7 +59,6 @@ return require('packer').startup(function()
 
   -- Icons
   use 'nvim-tree/nvim-web-devicons'
-
 
   -- Status bar
   use {

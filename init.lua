@@ -14,7 +14,8 @@ require('plugin')
 -- My Keymappings
 require('keymappings')
 
--- Run my .vimrc
+-- Run my .vimrc. Eventually we want to consolidate
+-- all existing vimscript logic into lua if possible
 execute('source ~/.vimrc')
 
 -- Set my theme using vimscript
