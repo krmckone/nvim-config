@@ -59,10 +59,4 @@ return require('packer').startup(function()
 
   -- Icons
   use 'nvim-tree/nvim-web-devicons'
-
-  -- Status bar
-  use {
-    'nvim-lualine/lualine.nvim',
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-  }
 end)
