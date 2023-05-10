@@ -1,5 +1,4 @@
 require('plugin.telescope')
-require('lualine').setup()
 
 -- Mason Setup
 require("mason").setup({
