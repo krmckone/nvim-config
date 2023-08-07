@@ -4,12 +4,12 @@ vim.g.mapleader = ' '
 local fn = vim.fn
 local execute = vim.api.nvim_command
 
+-- My Plugins and settings
+require('plugin')
+require('plugins')
+
 -- My Defaults
 require('settings')
-
--- My Plugins and settings
-require('plugins')
-require('plugin')
 
 -- My Keymappings
 require('keymappings')

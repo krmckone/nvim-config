@@ -23,3 +23,5 @@ utils.opt('o', 'clipboard', 'unnamed,unnamedplus')
 
 -- highlight on yank
 vim.cmd 'au TextYankPost * lua vim.highlight.on_yank {on_visual = false}'
+
+vim.cmd 'let g:neoformat_try_node_exe = 1'
