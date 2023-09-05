@@ -26,3 +26,4 @@ execute('set completeopt=menuone,noinsert,noselect')
 execute('set shortmess+=c')
 
 vim.cmd 'autocmd BufWritePost plugins.lua PackerCompile' -- Auto compile when there are changes in plugins.lua
+vim.cmd 'autocmd FileType c,cpp,ruby,lua autocmd BufWritePre <buffer> %s/\\s\\+$//e' -- Remove trailing whitespace on save
