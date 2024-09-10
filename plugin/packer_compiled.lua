@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/NeoSolarized",
     url = "https://github.com/overcache/NeoSolarized"
   },
+  ["go.nvim"] = {
+    loaded = true,
+    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
+  },
   neoformat = {
     loaded = true,
     path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/neoformat",
     url = "https://github.com/sbdchd/neoformat"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/kalebmckone/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
